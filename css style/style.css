@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+}
+.form-label{
+    color: white;
+    margin: 0 15px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(61,61,61);
+}
+
+.cal-box
+{
+    padding: 20px 0 0 0;
+    width: 400px;
+    background: #292b2c;
+    box-shadow: 0 0 12px black;
+}
+
+.btn-row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cBtn{
+    border: 1px solid grey;
+    color: white;
+    background: #292b2c;
+    font-size: 14px;
+    height: 80px;
+}
+
+.op
+{
+    background: #484848;
+}
+
+#equal{
+    grid-area: 4/4/6/5;
+    height: 100%;
+    background: #fc6524;
+}
+
+.display
+{
+    text-align: center;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 22px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
